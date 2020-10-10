@@ -5,7 +5,8 @@ const lib = require('./serverLib');
 const Server = function (port=8080,options={}) {
   this.handlers={
     "POST": {},
-    "GET": {}
+    "GET": {},
+    "PUT":{}
   };
   this.options=options;
   this.PORT=process.env.PORT||port;
@@ -18,6 +19,10 @@ Server.prototype.addHandler = function (method,path,callback) {
 
 Server.prototype.get = function (path,callback) {
   this.addHandler('GET',path,callback);
+};
+
+Server.prototype.put = function (path, callback) {
+  this.addHandler('PUT', path, callback);
 };
 
 Server.prototype.post = function (path,callback) {
