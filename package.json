@@ -1,0 +1,24 @@
+{
+  "name": "micro-express",
+  "version": "2.0.9",
+  "description": "Small and simple server for big purposes (Size=>micro,Work=>expess)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "veera",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veera83372/micro-express.git"
+  },
+  "keywords": [
+    "node",
+    "basic",
+    "server"
+  ],
+  "bugs": {
+    "url": "https://github.com/veera83372/micro-express/issues"
+  },
+  "homepage": "https://github.com/veera83372/micro-express#readme"
+}
